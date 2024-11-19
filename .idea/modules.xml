@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter1-Introduction/Chapter1-Introduction.iml" filepath="$PROJECT_DIR$/Chapter1-Introduction/Chapter1-Introduction.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DATA-STRUCTURES-ALGORITHMS.iml" filepath="$PROJECT_DIR$/.idea/DATA-STRUCTURES-ALGORITHMS.iml" />
     </modules>
   </component>

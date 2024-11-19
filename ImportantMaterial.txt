@@ -1,0 +1,3 @@
+Time and Space Complexity
+
+10^9 operations = 1 sec == 3 * 10^9 cycles/operations.
