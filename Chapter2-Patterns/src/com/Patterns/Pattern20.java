@@ -1,5 +1,10 @@
 package com.Patterns;
 
+// *                *
+// *                *
+// *       *        *
+// *   *        *   *
+// *                *
 import java.util.Scanner;
 
 public class Pattern20 {
