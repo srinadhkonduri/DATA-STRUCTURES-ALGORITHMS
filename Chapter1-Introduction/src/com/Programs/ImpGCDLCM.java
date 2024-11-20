@@ -2,7 +2,7 @@ package com.Programs;
 
 import java.util.Scanner;
 
-public class GCDandLCM {
+public class ImpGCDLCM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter num 1 : ");
