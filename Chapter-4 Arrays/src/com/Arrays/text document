@@ -40,3 +40,34 @@ Space Complexity:
 Stack for NGE computation: O(n).
 NGE array: O(n).
 Total: O(n).
+
+
+
+MERGE OVERLAPPING INTERVALS
+Sort the Intervals:
+
+First, sort the intervals based on their start times. This makes it easier to detect overlaps as we iterate through them.
+Iterate and Merge:
+
+Start with the first interval as the current interval.
+Compare it with the next interval:
+If they overlap (currentEnd >= nextStart), merge them by updating the end time to max(currentEnd, nextEnd).
+If they don't overlap, add the next interval to the result and make it the current interval.
+Return the Result:
+
+Use a list to handle the dynamic size of merged intervals and convert it to an array at the end.
+Time and Space Complexity
+Time Complexity:
+Sorting the intervals:
+𝑂(𝑛log𝑛)
+Iterating through the intervals:
+𝑂(𝑛)
+O(n)
+Total: 𝑂(𝑛log𝑛)
+Space Complexity:
+Space for the merged list:
+𝑂(𝑛)
+O(n).
+Total:
+𝑂(𝑛)
+O(n).
