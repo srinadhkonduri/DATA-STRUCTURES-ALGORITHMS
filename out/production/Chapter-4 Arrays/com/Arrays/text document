@@ -1,0 +1,42 @@
+SLIDING WINDOW MAXIMUM PROBLEM (😊)
+
+Detailed Explanation of Each Section
+1. Input Handling
+The program first asks the user for the size of the array (n) and the array elements.
+It also takes the size of the sliding window (k) as input.
+This prepares the array and constraints needed to solve the problem.
+
+
+2. Next Greater Element (NGE) Computation
+The nge array is precomputed to store the indices of the next element greater than the current one.
+By using a stack, we efficiently find the NGE for every element in O(n) time.
+Logic:
+Traverse from right to left.
+Pop indices from the stack until the current element is smaller than or equal to the top of the stack.
+If the stack is empty, it means there is no greater element to the right; otherwise, the NGE is at the index stored
+ at the top of the stack.
+
+
+3. Sliding Window Maximum
+Using the precomputed nge array, we find the maximum for each sliding window.
+The variable j tracks the index of the maximum element in the current window.
+For each window starting at i, update j to skip indices where the element is not within the window range.
+Use the nge array to jump directly to the next potential maximum.
+
+
+4. Optimization
+The key optimization is the use of nge[j] to skip over indices that cannot be the maximum.
+This eliminates the need to traverse the window directly, reducing redundant comparisons.
+
+
+5. Output
+The program prints the maximum value for every window of size k in the array.
+Time and Space Complexity
+Time Complexity:
+Computing NGE: O(n) due to each element being pushed and popped from the stack once.
+Sliding Window Traversal: O(n) as we efficiently jump using the NGE array.
+Total: O(n).
+Space Complexity:
+Stack for NGE computation: O(n).
+NGE array: O(n).
+Total: O(n).

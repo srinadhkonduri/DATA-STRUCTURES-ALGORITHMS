@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter-1 Introduction/Chapter-1 Introduction.iml" filepath="$PROJECT_DIR$/Chapter-1 Introduction/Chapter-1 Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter-2 Patterns/Chapter-2 Patterns.iml" filepath="$PROJECT_DIR$/Chapter-2 Patterns/Chapter-2 Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter-3 Functions/Chapter-3 Functions.iml" filepath="$PROJECT_DIR$/Chapter-3 Functions/Chapter-3 Functions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter-4 Arrays/Chapter-4 Arrays.iml" filepath="$PROJECT_DIR$/Chapter-4 Arrays/Chapter-4 Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DATA-STRUCTURE-ALGORITHMS.iml" filepath="$PROJECT_DIR$/.idea/DATA-STRUCTURE-ALGORITHMS.iml" />
+    </modules>
+  </component>
+</project>
